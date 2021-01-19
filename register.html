@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="description" content="restaurant">
+		<title>OT4A | register</title>
+		<link rel="shortcut icon" href="logo9.png"/>
+		<link rel="stylesheet" href="register.css">
+	</head>
+	<body>
+		<header class="homeHeader">
+			<img src="logo9.png" class="logo">
+			<nav>
+				<ul>
+					<li><a href="home.html">Home </a></li> |
+					<li><a href="menuA.html">menu </a></li> | 
+					<li><a href="log.html">log in </a></li> | 
+					<li><a href="contact.html">contact us</a></li> |
+					<li><a href="about.html">about us</a></li> 
+				</ul>
+			</nav>	
+		</header>
+		<form name="form" method="post">
+			<fieldset>
+				<legend>registration</legend>
+				<label>first name | </label> <input type="text" name="fname"  required="" placeholder="Enter your first name"><br>
+				<label>last name | </label> <input type="text" name="lname" required="" placeholder="Enter your last name"><br>
+				<label>username | </label> <input type="text" name="username" required="" placeholder="username"><br>
+				<label>password | </label> <input type="password" name="password" required="" placeholder="Enter your password"><br>
+				<label>gender</label><br>
+				<input type="radio" name="gender" checked="checked"> <label>male</label><br>
+				<input type="radio" name="gender"> <label>female</label><br>
+				<input type="button" name="submit" value="Submit" onclick="change();">
+			</fieldset>
+		</form>
+		<footer class="homeFooter">
+			<ul>
+				<li class="email">e-mail:<a href="">info@ot4a.com</a></li>
+				<li class="hotline">hotline: 19991</li>
+				<li class="whats">mobile: +20 100 999 4332</li>
+				<li class="phone">telephone: 02 222 64 645</li>
+			</ul>
+			<div class="copyright">
+				&copy;Copyright 2020<br>
+				&reg;OT4A
+			</div>
+		</footer>
+		<script type="text/javascript" src="register.js"></script>
+	</body>
+</html>

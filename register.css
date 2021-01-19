@@ -1,0 +1,173 @@
+*
+{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+body
+{
+	margin: 0;
+	padding: 0;
+	background-image: url("login1.jpg");
+	background-repeat: no-repeat;
+}
+
+fieldset
+{
+	text-transform: capitalize;
+	border-radius: 5px;
+	/*background-color: rgba(0,0,0,0.8);*/
+	border-style: none;
+	padding: 5%;
+}
+
+legend
+{
+	margin-left: 36%;
+	padding: 5% 10px 0 10px;
+	font-size: 1.4em;
+	color: white;
+}
+
+form
+{
+	border-radius: 10px;
+	background-color: rgba(0,0,0,0.8);
+	margin: 13% 30%;
+}
+
+input[type="text"], input[type="password"]
+{
+	margin-bottom: 5%;
+	border: none;
+	border-bottom: 1px solid #fff;
+	background-color: transparent;
+	color: white;
+}
+
+input[type="button"]
+{
+	margin-top: 5%;
+	background: transparent;
+    border: none;
+    outline: none;
+    color: #FFF;
+    background: #d57149;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+label
+{
+	color: white;
+}
+
+/*awl el ribbon*/
+.homeHeader
+{
+	/*border: 1px solid #fff;*/
+	background-color: rgba(30,30,30,0.75);
+	width: 100%;
+	height: 55px;
+	position: fixed;
+	margin: 0px;
+	top: 0px;
+	left: 0px;
+	z-index: 100;
+	/*padding-right: 15px;*/
+}
+
+.logo
+{
+	padding-left: 15px;
+	float: left;
+	width: 50px;
+	height: 50px;
+}
+
+nav ul li
+{
+	text-transform: capitalize;
+	display: inline-block;
+	list-style-type: none; 
+	padding: 0 10px 0 10px;
+}
+ 
+nav ul li a 
+{
+	text-decoration: none;
+	color: #dfdfdf;
+}
+ 
+nav ul li a:focus
+{
+	text-decoration: none;
+	color: #9c9c9c;
+	border-bottom: 2px solid #9c9c9c;
+}
+
+nav ul li:hover
+{
+	color: #9c9c9c;
+	border-bottom: 2px solid #9c9c9c;
+}
+ 
+nav ul li a:hover 
+{
+	color: #9c9c9c;	
+}
+ 
+nav
+{
+	color: white;
+	float: right;
+	padding-right: 20px;
+}
+ 
+footer.homeFooter
+{
+	min-height: 105px;
+	background-color: #1e1e1e;
+	color: #dfdfdf;
+	font-size: small;
+	margin: 0;
+}
+
+footer ul li a
+{
+	text-decoration: none;
+	color: #dfdfdf;
+}
+
+footer ul li a:hover
+{
+	text-decoration: underline;
+	color: #dfdfdf;
+}
+
+.copyright
+{
+	padding-left: 47%;
+	font-size: x-small;
+	color: #dfdfdf;
+	padding-top: 50px;
+}
+
+.homeFooter ul
+{
+	float: right;
+	margin-right: 20px;
+}
+.email{
+	list-style-image: url("mail.png");
+}
+.whats{
+	list-style-image: url("whatsapp1.png");
+}
+.hotline{
+	list-style-image: url("phone-call.png");
+}
+.phone{
+	list-style-image: url("phone.png");
+}
+/*akher el ribbon*/

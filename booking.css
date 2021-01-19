@@ -1,0 +1,68 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(book8.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+fieldset
+{
+	text-transform: capitalize;
+	border-radius: 5px;
+	/*background-color: rgba(0,0,0,0.8);*/
+	border-style: none;
+	padding: 5%;
+}
+legend
+{
+	margin-left: 36%;
+	padding: 5% 10px 0 10px;
+	font-size: 1.4em;
+	color: white;
+    font-weight: bold;
+}
+
+form
+{
+	border-radius: 10px;
+	background-color: rgba(0,0,0,0.8);
+	margin: 15% 30%;
+}
+label
+{
+	color: white;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+input[type="text"]
+{
+	margin-bottom: 5%;
+	border: none;
+	border-bottom: 1px solid #fff;
+	background-color: transparent;
+	color: white;
+    /*border-radius: 5px;*/
+}
+
+select{
+    background-color: transparent;
+    color: white;
+    margin-bottom: 5%;
+}
+option{
+    color: black;
+}
+input[type="button"]
+{
+	margin-left: 40%;
+	background: transparent;
+    border: none;
+    outline: none;
+    color: #FFF;
+    background: #d57149;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}   

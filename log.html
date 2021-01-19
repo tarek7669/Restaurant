@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <title>OT4A | log in</title>
+    <link rel="stylesheet" href="log.css">
+    <link rel="shortcut icon" href="logo9.png"/>
+  </head>
+  <body>
+    <header class="homeHeader">
+      <img src="logo9.png" class="logo">
+      <nav>
+        <ul>
+          <li><a href="home.html">Home </a></li> |
+          <li><a href="menuA.html">menu </a></li> | 
+          <li><a href="log.html">log in </a></li> | 
+          <li><a href="contact.html">contact us</a></li> |
+          <li><a href="about.html">about us</a></li>   
+        </ul>
+      </nav>
+    </header>
+    <div class="box">
+      <h2>Login</h2>
+      <form name="inputform" method="post">
+        <div class="inputbox">
+          <input type="text" name="username" required="" id="username">
+          <label>Username</label>
+        </div>
+        <div class="inputbox">
+          <input type="password" name="password" required="" id="password">
+          <label>Password</label>
+        </div>
+        <input type="button" name="submit" value="Submit" onclick="validate();">
+        <a href="register.html"><input type="button" name="register" class="register" value="Register"></a>
+      </form>
+    </div>
+    <footer class="homeFooter">
+      <ul>
+        <li class="email">e-mail:<a href="">info@ot4a.com</a></li>
+				<li class="hotline">hotline: 19991</li>
+				<li class="whats">mobile: +20 100 999 4332</li>
+				<li class="phone">telephone: 02 222 64 645</li>
+      </ul>
+      <div class="copyright">
+        &copy;Copyright 2020<br>
+        &reg;OT4A
+      </div>
+    </footer>
+    <script type="text/javascript" src="log.js"></script>
+  </body>
+</html>

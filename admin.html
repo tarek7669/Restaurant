@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="description" content="restaurant">
+		<title>OT4A | admin</title>
+		<link rel="shortcut icon" href="logo9.png"/>
+		<link rel="stylesheet" href="admin.css">
+	</head>
+	
+	<body class="home" id="top">
+		<header class="homeHeader">
+			<img src="logo9.png" class="logo">
+			<nav>
+				<ul>
+					<li><a href="home.html">Home </a></li> |
+					<li><a href="menuA.html">menu </a></li> | 
+					<li><a href="log.html">log out </a></li> | 
+					<li><a href="contact.html">contact us</a></li> |
+					<li><a href="about.html">about us</a></li> 
+				</ul>
+			</nav>
+		</header>
+
+		<fieldset>
+			<legend>Controls</legend>
+			<h3>To change the background color click here </h3>
+			<input name = "Gray" type = "button" value = "Gray" onclick = "bgcolor('#696969')">
+			<input name = "Teal" type = "button" value = "Teal" onclick = "bgcolor('#008080')">
+			<input name = "Lightgreen" type = "button" value = "light green" onclick = "bgcolor('#8FBC8F')">
+			<input name = "White" type = "button" value = "White" onclick = "bgcolor('White')"> 
+
+			<h3>To change the font size, click here</h3>
+			<input name = "small" type = "button" value = "small" onclick = "fsize(this.name)">
+			<input name = "default" type = "button" value = "default" onclick = "fsize(this.name)">
+			<input name = "large" type = "button" value = "large" onclick = "fsize(this.name);">
+		</fieldset>
+
+		<fieldset>
+			<legend>Customer listing</legend>
+			<table>
+			  <tr>
+			    <th>Online customers</th>
+			    <th>Telephone</th>
+			    <th>Orders</th>
+			    <th>Offline customers</th>
+			    <th>Telephone</th>
+			    <th>Orders</th>
+			  </tr>
+			  <tr>
+			    <td>Tarek Ashraf</td>
+			    <td>01005544884</td>
+			    <td>94</td>
+			    <td>Adham Mohamed</td>
+			    <td>01005788997</td>
+			    <td>87</td>
+			  </tr>
+			  <tr>
+			  	<td>Ossama Antar</td>
+			    <td>01225544584</td>
+			    <td>92</td>
+			    <td>Ahmed Ibrahim</td>
+			    <td>01166889544</td>
+			    <td>86</td>
+			  </tr>
+			  <tr>
+			  	<td>Nada Ahmed</td>
+			    <td>01515963227</td>
+			    <td>91</td>
+			    <td>Mostafa Sabri</td>
+			    <td>01242311756</td>
+			    <td>83</td>
+			  </tr>
+			  <tr>
+			  	<td>Ahmed Ali</td>
+			    <td>01560413055</td>
+			    <td>89</td>
+			    <td>Zain Mohamed</td>
+			    <td>01115836145</td>
+			    <td>81</td>
+			  </tr>
+			  <tr>
+			  	<td>Ahmed yasser</td>
+			    <td>01523897454</td>
+			    <td>88</td>
+			    <td>Mariam ElMohandes</td>
+			    <td>01564502443</td>
+			    <td>75</td>
+			  </tr>
+			  <tr>
+			  	<td>Marwan Pablo</td>
+			    <td>01695125445</td>
+			    <td>82</td>
+			    <td>Youssef Magdi</td>
+			    <td>264-559-7544</td>
+			    <td>72</td>
+			  </tr>
+			  <tr>
+			  	<td></td>
+			    <td></td>
+			    <td></td>
+			    <td>Nemrin Sayed</td>
+			    <td>0122633005</td>
+			    <td>70</td>
+			  </tr>
+			</table>
+		</fieldset>
+
+		<footer class="homeFooter">
+			<ul>
+				<li class="email">e-mail:<a href="">info@ot4a.com</a></li>
+				<li class="hotline">hotline: 19991</li>
+				<li class="whats">mobile: +20 100 999 4332</li>
+				<li class="phone">telephone: 02 222 64 645</li>
+			</ul>
+			<div class="copyright">
+				&copy;Copyright 2020<br>
+				&reg;OT4A
+			</div>
+		</footer>
+
+		<script type="text/javascript" src = "admin.js"></script>
+
+	</body>
+</html>

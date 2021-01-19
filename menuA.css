@@ -1,0 +1,169 @@
+*
+{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+/*awl el ribbon*/
+.homeHeader
+{
+    background-color: rgba(30,30,30,0.75);
+    width: 100%;
+    height: 55px;
+    position: fixed;
+    margin: 0px;
+    top: 0px;
+    left: 0px;
+    z-index: 100;
+}
+
+nav ul li
+{
+    text-transform: capitalize;
+    display: inline-block;
+    list-style-type: none; 
+    padding: 0 10px 0 10px;
+}
+ 
+nav ul li a 
+{
+    text-decoration: none;
+    color: #dfdfdf;
+}
+ 
+nav ul li a:focus
+{
+    text-decoration: none;
+    color: #9c9c9c;
+    border-bottom: 2px solid #9c9c9c;
+}
+
+nav ul li:hover
+{
+    color: #9c9c9c;
+    border-bottom: 2px solid #9c9c9c;
+}
+ 
+nav ul li a:hover 
+{
+    color: #9c9c9c; 
+}
+ 
+nav
+{
+    color: white;
+    float: right;
+    padding-right: 20px;
+}
+
+footer.homeFooter
+{
+    margin-left: -7px;
+    margin-bottom: -5px;
+    min-height: 105px;
+    background-color: #1e1e1e;
+    color: #dfdfdf;
+    font-size: small;
+}
+
+footer ul li a
+{
+    text-decoration: none;
+    color: #dfdfdf;
+}
+
+footer ul li a:hover
+{
+    text-decoration: underline;
+    color: #dfdfdf;
+}
+
+.copyright
+{
+    padding-left: 47%;
+    font-size: x-small;
+    color: #dfdfdf;
+    padding-top: 50px;
+}
+
+.homeFooter ul
+{
+    float: right;
+    margin-right: 20px;
+}
+/*akher el ribbon*/
+
+.content
+{
+    background-image: url("ahmed.jpg");
+    height:auto;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.image
+{
+	height: 200px;
+	width: 250px;
+	border-radius: 15px;
+	border-style: solid;
+	margin: 7% 0 0 43%;
+    border-color: #fff;
+}
+
+.menu:hover
+{
+    text-shadow: 7px 7px rgb(150,14,20);
+    font-weight: 300;
+}
+
+.image:hover
+{
+    border-color:orange;
+    height: 210px;
+	width: 260px;    
+}
+
+.menu
+{
+    font-size: 150px;
+    color: #FFF;
+    font-family: "Comic Sans Ms",cursive;
+    text-decoration: underline;
+    margin: 0 0 0 40%;
+    font-style: italic;
+    font-weight: bold;
+    text-shadow: 7px 7px #9A1F40;
+}
+
+.price
+{
+    color: white;
+    font-size: 50px;
+    text-align: center; 
+    margin-bottom: 0;
+}
+
+.logo
+{
+    padding-left: 15px;
+    float: left;
+    width: 50px;
+    height: 50px;
+}
+.email{
+	list-style-image: url("mail.png");
+}
+.whats{
+	list-style-image: url("whatsapp1.png");
+}
+.hotline{
+	list-style-image: url("phone-call.png");
+}
+.phone{
+	list-style-image: url("phone.png");
+}
